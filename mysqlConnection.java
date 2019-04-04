@@ -2,6 +2,7 @@ package mysqlConnection;
 
 import java.sql.*;
 
+//add mysql-connector-java-8.0.15 library to external libraries
 
 public class mysqlConnection {
 
