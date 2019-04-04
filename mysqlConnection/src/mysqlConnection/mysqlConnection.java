@@ -14,7 +14,7 @@ public class mysqlConnection {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			con = DriverManager.getConnection("jdbc:mysql://localhost/mall?useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=Turkey"
-					,"root","sammas169");
+					,"root","password");
 		
 			
 			Statement sqlState = con.createStatement();
